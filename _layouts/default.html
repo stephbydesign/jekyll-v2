@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Jekyll Website</title>
+  <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/general.css">
 </head>
 <body>
 
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <<a href="dinosaurs.html">Dinosaurs</a>
+    <a href="{{site.baseurl}}/index.html">Home</a>
+    <a href="{{site.baseurl}}/about.html">About</a>
+    <a href="{{site.baseurl}}/dinosaurs.html">Dinosaurs</a>
   </nav>
 
   {{content}}
